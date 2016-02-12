@@ -21,3 +21,21 @@
 var temp_start = prompt("Please provide a temperature. This should be a numerical value that represents degrees.");
 
 var unit_start = prompt("Please provide a temperature unit (e.g. F, C, K).")
+
+//F to C
+//(F  -  32)  x  5/9 = C
+
+//F to K
+//(F + 459.67) × 5/9 = K
+
+//C to F
+//(C  x  9/5) + 32 = F
+
+//C to K
+//C + 273.15 = K
+
+//K to F
+//(K × 9/5) - 459.67 = F
+
+//K to C
+//K - 273.15 = C
