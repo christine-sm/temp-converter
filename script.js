@@ -10,9 +10,14 @@
 
 //text 32° F = 0°C = 273.15K
 
-//Using Conditionals, have your code accept either fahrenheit, celsius or kelvin, and output the other two temp types.
+//Using Conditionals, have your code accept either fahrenheit, celsius or kelvin...
+//...and output the other two temp types.
 
 //Your temperatures, both user-submitted and converted, should be stored and accessed from an array.
 //Your array will end up looking something like this...
 
 //var fahrenheitTemps = [ STARTING_TEMP, CONVERTED_TEMP_1, CONVERTED_TEMP_2 ];
+
+var temp_start = prompt("Please provide a temperature. This should be a numerical value that represents degrees.");
+
+var unit_start = prompt("Please provide a temperature unit (e.g. F, C, K).")
