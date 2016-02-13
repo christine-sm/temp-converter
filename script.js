@@ -22,6 +22,11 @@ var temp_start = prompt("Please provide a temperature. This should be a numerica
 
 var unit_start = prompt("Please provide a temperature unit (e.g. F, C, K).")
 
+if (unit_start ='F') {
+  return (temp_start - 32) * (5/9);
+  console.log();
+}
+
 //F to C
 //(F  -  32)  x  5/9 = C
 
