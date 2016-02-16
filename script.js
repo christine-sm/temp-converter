@@ -22,25 +22,48 @@ var temp_start = prompt("Please provide a temperature. This should be a numerica
 
 var unit_start = prompt("Please provide a temperature unit (e.g. F, C, K).")
 
-if (unit_start ='F') {
-  return (temp_start - 32) * (5/9);
-  console.log();
-}
+//Example starting variable
+var unit_start = 'F';
+var temp_start = 32;
 
 //F to C
 //(F  -  32)  x  5/9 = C
+if (unit_start ==='F') {
+  ((temp_start - 32) * (5/9));
+  console.log((temp_start - 32) * (5/9));
+}
 
 //F to K
 //(F + 459.67) × 5/9 = K
+if (unit_start ==='F') {
+    ((temp_start + 459.67) * (5/9));
+    console.log((temp_start + 459.67) * (5/9));
+}
 
 //C to F
 //(C  x  9/5) + 32 = F
+if (unit_start === 'C') {
+    ((temp_start * (9/5)) + 32);
+    console.log((temp_start * (9/5)) + 32);
+}
 
 //C to K
 //C + 273.15 = K
+if (unit_start === 'C') {
+    (temp_start + 273.15);
+    console.log(temp_start + 273.15);
+}
 
 //K to F
 //(K × 9/5) - 459.67 = F
+if (unit_start === 'K') {
+    ((temp_start * (9/5)) - 459.67);
+    console.log((temp_start * (9/5)) - 459.67);
+}
 
 //K to C
 //K - 273.15 = C
+if (unit_start === 'K') {
+    (temp_start - 273.15);
+    console.log(temp_start - 273.15);
+}
